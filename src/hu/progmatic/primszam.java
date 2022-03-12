@@ -24,7 +24,7 @@ public class primszam {
             System.out.println("primszám");
         }
         else {
-            System.out.println("ez nem prímszám");
+            System.out.println("ez nem prímszám.");
         }
         //System.out.println("oszto " + oszto);
     }

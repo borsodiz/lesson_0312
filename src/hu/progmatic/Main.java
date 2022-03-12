@@ -13,10 +13,8 @@ public class Main {
         // Itt vizsgáljuk meg a számot feltételekkel.
         if ((year > 1582) && (year % 4 == 0)) {
             if ((year % 100 != 0) || (year % 400 == 0)) {
-
                 System.out.println("Ez szökőév.");
-
             }
-        }System.out.println("Nem szökőév.");
+        } System.out.println("Nem szökőév.");
     }
 }

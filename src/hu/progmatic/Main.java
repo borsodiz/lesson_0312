@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Adj meg egy évet:");
 
         int year = scanner.nextInt();
-
+        // Itt vizsgáljuk meg a számot feltételekkel.
         if ((year > 1582) && (year % 4 == 0)) {
             if ((year % 100 != 0) || (year % 400 == 0)) {
 
